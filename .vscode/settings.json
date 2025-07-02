@@ -1,0 +1,17 @@
+{
+    "rescript.settings.autoSave": true,
+    "rescript.settings.askToStartBuild": false,
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.res": "rescript",
+        "*.resi": "rescript"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "rescript.buildCommand": "npm run res:dev",
+    "rescript.openCompiledJs": "never",
+    "[rescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

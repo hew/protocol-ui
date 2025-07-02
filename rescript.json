@@ -1,0 +1,68 @@
+{
+  "name": "rescript-starter-kit",
+  "namespace": false,
+  "jsx": {
+    "version": 4
+  },
+  "bs-dependencies": [
+    "@rescript/react",
+    "@rescript/core"
+  ],
+  "bsc-flags": [
+    "-open RescriptCore"
+  ],
+  "sources": [
+    {
+      "dir": "src/components",
+      "subdirs": false
+    },
+    {
+      "dir": "src/bindings",
+      "subdirs": false
+    },
+    {
+      "dir": "src/layouts",
+      "subdirs": false
+    },
+    {
+      "dir": "src",
+      "subdirs": false
+    },
+    {
+      "dir": "src/core",
+      "subdirs": false
+    },
+    {
+      "dir": "src/ai-generator",
+      "subdirs": false
+    },
+    {
+      "dir": "src/cli",
+      "subdirs": false
+    },
+    {
+      "dir": "tests/e2e",
+      "type": "dev",
+      "subdirs": true
+    },
+    {
+      "dir": "tests/pageObjects",
+      "type": "dev",
+      "subdirs": false
+    }
+  ],
+  "package-specs": {
+    "module": "esmodule",
+    "in-source": true
+  },
+  "suffix": ".res.mjs",
+  "gentypeconfig": {
+    "language": "typescript",
+    "shims": [],
+    "generatedField": "reason"
+  },
+  "generate-merlin": true,
+  "warnings": {
+    "error": "+A-16-26-27-39"
+  }
+}

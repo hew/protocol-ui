@@ -1,0 +1,24 @@
+out
+
+.DS_Store
+*.swp
+*.swo
+
+node_modules/
+.next/
+
+yarn-error.log
+
+.bsb.lock
+.merlin
+lib/
+.vercel
+
+/src/generated/prisma
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
